@@ -1,0 +1,4 @@
+service infoserver /system/bin/infoserver -t3 -e
+    user root
+    disabled
+    oneshot

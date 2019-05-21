@@ -1,0 +1,58 @@
+compress_level:6
+file charger initrd/charger 0750
+dir data 0771
+file default.prop initrd/default.prop 0644
+dir dev 0755
+file file_contexts initrd/file_contexts 0644
+file fstab.qcom initrd/fstab.qcom 0640
+file init initrd/init 0750
+file init.class_main.sh initrd/init.class_main.sh 0750
+file init.environ.rc initrd/init.environ.rc 0750
+file init.mdm.sh initrd/init.mdm.sh 0750
+file init.nokia.eno_factory.rc initrd/init.nokia.eno_factory.rc 0750
+file init.nokia.eno_factory.sh initrd/init.nokia.eno_factory.sh 0750
+file init.nokia.eno_normal.rc initrd/init.nokia.eno_normal.rc 0750
+file init.nokia.eno_normal.sh initrd/init.nokia.eno_normal.sh 0750
+file init.nokia.rm.sh initrd/init.nokia.rm.sh 0750
+file init.qcom.class_core.sh initrd/init.qcom.class_core.sh 0750
+file init.qcom.early_boot.sh initrd/init.qcom.early_boot.sh 0750
+file init.qcom.factory.sh initrd/init.qcom.factory.sh 0750
+file init.qcom.rc initrd/init.qcom.rc 0750
+file init.qcom.sh initrd/init.qcom.sh 0750
+file init.qcom.ssr.sh initrd/init.qcom.ssr.sh 0750
+file init.qcom.syspart_fixup.sh initrd/init.qcom.syspart_fixup.sh 0750
+file init.qcom.usb.rc initrd/init.qcom.usb.rc 0750
+file init.qcom.usb.sh initrd/init.qcom.usb.sh 0750
+file init.qti.carrier.rc initrd/init.qti.carrier.rc 0750
+file init.rc initrd/init.rc 0750
+file init.target.rc initrd/init.target.rc 0750
+file init.trace.rc initrd/init.trace.rc 0750
+file init.usb.rc initrd/init.usb.rc 0750
+file initlogo.rle initrd/initlogo.rle 0750
+dir proc 0755
+file property_contexts initrd/property_contexts 0644
+dir res 0755
+dir res/images 0755
+dir res/images/charger 0755
+file res/images/charger/battery_0.png initrd/res\images\charger\battery_0.png 0644
+file res/images/charger/battery_1.png initrd/res\images\charger\battery_1.png 0644
+file res/images/charger/battery_2.png initrd/res\images\charger\battery_2.png 0644
+file res/images/charger/battery_3.png initrd/res\images\charger\battery_3.png 0644
+file res/images/charger/battery_4.png initrd/res\images\charger\battery_4.png 0644
+file res/images/charger/battery_5.png initrd/res\images\charger\battery_5.png 0644
+file res/images/charger/battery_charge.png initrd/res\images\charger\battery_charge.png 0644
+file res/images/charger/battery_fail.png initrd/res\images\charger\battery_fail.png 0644
+dir res/images/mmi 0755
+file res/images/mmi/fail.png initrd/res\images\mmi\fail.png 0644
+file res/images/mmi/pass.png initrd/res\images\mmi\pass.png 0644
+dir sbin 0750
+file sbin/adbd initrd/sbin\adbd 0750
+file sbin/healthd initrd/sbin\healthd 0750
+slink sbin/ueventd ../init 0750
+slink sbin/watchdogd ../init 0750
+file seapp_contexts initrd/seapp_contexts 0644
+file sepolicy initrd/sepolicy 0644
+dir sys 0755
+dir system 0755
+file ueventd.qcom.rc initrd/ueventd.qcom.rc 0644
+file ueventd.rc initrd/ueventd.rc 0644

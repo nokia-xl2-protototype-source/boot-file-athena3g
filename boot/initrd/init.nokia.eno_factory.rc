@@ -1,0 +1,9 @@
+service testserver /system/bin/testserver -t5 -e
+    user root
+    disabled
+    oneshot
+
+service infoserver /system/bin/infoserver -t3 -e
+    user root
+    disabled
+    oneshot
